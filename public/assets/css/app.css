@@ -1,3 +1,74 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+#neubar {
+    background: #fae8d2;
+    box-shadow: 4px 6px 12px rgba(0,0,0,0.4)
+}
+.nav-item .active {
+    border-radius: 6px;
+    background: linear-gradient(145deg, #ffe7ca, #f5d7b2);
+    box-shadow:  4px 4px 8px #ddc1a0, -4px -4px 8px #f7e5cc;
+}
+#neubar .dropdown-menu a:hover {
+    color: #454545
+}
+#neubar .nav-item {
+    margin : auto 4px;
+}
+#neubar a {
+    padding-left:12px;
+    padding-right:12px;
+}
+#neubar .dropdown-menu {
+    background : #ffffff;
+}
+a.navbar-brand {
+    color: #ffffff;
+}
+.row{
+    background: #eeeeee;
+}
+.col-3 .container{
+    background-color: #ffffff;
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 20px;
+    box-shadow: 4px 6px 12px rgba(0,0,0,0.4)
+}
+.col-9 .container{
+    background-color: #ffffff;
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 20px;
+    box-shadow: 4px 6px 12px rgba(0,0,0,0.4)
+}
+h4.heading-block{
+    background-color: #fae8d2;
+    --bs-border-radius: 15px 15px 0px 0px;
+}
+.card-group{
+    --bs-border-radius: none;
+}
+.card-group .card {
+    --bs-card-border-color: none;
+}
+.mask {
+    position: absolute;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#000000', GradientType=0);
+    bottom: 0;
+    padding: 0px 0px 15px 15px;
+    right: 0;
+    left: 0;
+    z-index: auto;
+    text-align: left;
+}
+.mask a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff !important;
+}
