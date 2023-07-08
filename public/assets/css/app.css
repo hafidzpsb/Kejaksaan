@@ -72,3 +72,24 @@ h4.heading-block{
     font-size: 18px;
     color: #ffffff !important;
 }
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #454545;
+}
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #454545;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
